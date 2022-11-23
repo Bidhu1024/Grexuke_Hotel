@@ -6,6 +6,7 @@ import Header from "../../Components/Header/Header";
 import Featured from "./../../Components/Featured/Featured";
 import PropertyList from "../../Components/propertyList/PropertyList";
 import FeaturedProperties from "../../Components/FeaturedProperties/FeaturedProperties";
+import MailList from "../../Components/MailList/MailList";
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
         <PropertyList />
         <h1 className="homeTitle">Homes guests love</h1>
         <FeaturedProperties />
+        <MailList />
       </div>
     </>
   );
