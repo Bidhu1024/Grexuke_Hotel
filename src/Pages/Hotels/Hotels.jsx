@@ -3,7 +3,7 @@ import "./hotels.css";
 import Navbar from "./../../Components/Navbar/Navbar";
 import Header from "./../../Components/Header/Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import ReactDOM from "react-dom";
+
 import {
   faCircleArrowLeft,
   faCircleArrowRight,
@@ -42,7 +42,7 @@ const Hotels = () => {
 
   const handleMove = (direction) => {
     let newSlideIndex;
-    if (direction === "left") {
+    if (direction === "l") {
       newSlideIndex = slideNumber === 0 ? 5 : slideNumber - 1;
     } else {
       newSlideIndex = slideNumber === 5 ? 0 : slideNumber + 1;
