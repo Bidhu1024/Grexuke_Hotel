@@ -3,7 +3,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="navConatiner">
+      <div className="navContainer">
         <span className="logo">
           GreXuke Booking Application
           </span>
